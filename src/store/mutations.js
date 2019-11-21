@@ -1,0 +1,26 @@
+export default{
+    SET_NEWS(state,news){
+        state.news = news;
+    },
+    SET_JOBS(state,jobs){
+        state.jobs = jobs;
+    },
+    SET_ASKS(state,ask){
+        state.ask = ask;
+    },
+    SET_USER(state,user){
+        state.user = user;
+    },
+    SET_ITEM(state,item){
+        state.item = item;
+    },
+
+
+    addcount (state) {
+        state.count++
+    },
+    subcount (state) {
+        state.count--
+    },
+
+}
